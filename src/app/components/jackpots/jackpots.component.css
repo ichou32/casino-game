@@ -1,0 +1,42 @@
+.card-body{
+    padding:0px;
+    border-radius: 1rem;
+}
+.card{
+    border: none;
+}
+
+.card-header{
+    background-color: #373737;
+    opacity: .5;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin-bottom: -2.5rem;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  /* Hover state */
+.play{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  margin-top: -40%;
+}
+.title{
+  background-color: #373737;
+  color: #FFFFFF;
+}
+.btn{
+  background-color: #8DC63F !important;
+  color: #FFFFFF;
+  /* display: contents; */
+}
+.card:hover> .play{
+  display: grid;
+}
+.card:hover{
+  opacity: .8;
+}
