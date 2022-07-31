@@ -6,7 +6,7 @@
                 <div *ngIf="hasAmount(game.id) != 0" class="card-header"> {{hasAmount(game.id) | currency}}</div>                              
                 <img class="game-img card-body" [src]="game.image" alt="" style="width: 100%; height:100%">               
                 <div class="play">
-                    <h3 class="title">{{game.name}}</h3>
+                    <h3 class="title px-2">{{game.name}}</h3>
                     <button class="btn mx-5">Play</button>
                 </div>
             </div>
