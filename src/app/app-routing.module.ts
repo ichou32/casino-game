@@ -13,6 +13,9 @@ import { TopGamesComponent } from './components/top-games/top-games.component';
 
 const routes: Routes = [
   {
+    path:"", component: TopGamesComponent
+  },
+  {
     path:'top-games', component: TopGamesComponent
   },
   {
