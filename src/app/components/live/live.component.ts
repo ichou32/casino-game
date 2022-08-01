@@ -17,7 +17,7 @@ export class LiveComponent implements OnInit {
 
   ngOnInit(): void {
     this.service.getAllGames().pipe().subscribe(data=>{
-      this.gameList$=data.filter(data=>data.categories.includes("top"))
+      this.gameList$=data.filter(data=>data.categories.includes("live"))
     })
 
     this.service.getAllJackpots().pipe().subscribe(data=>{
